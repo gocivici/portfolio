@@ -16,19 +16,51 @@ margin-right: auto;
   border-radius: 10px;
 }
 .tagRow{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .contentTag{
   border-radius: 4px;
-  font-size: 14px;
+  
+  font-size: 12px;
   margin: 0 2px;
   padding: 4px 10px;
   font-family: sans-serif;
-  text-decoration: none;
+  /* text-decoration: none; */
   /* text-transform: uppercase; */
-  color: #DDEBF1;
-  background-color:#0B6E99;
+}
+.blue{
+  /* color: #477DA5;
+  background-color:#E9F3F7; */
+  color: #183347;
+  background-color:#D3E5EF;
+}
+.purple{
+  /* color: #A48BBE;
+  background-color:#F6F3F8; */
+  color: #7C658A;
+  background-color:#E8DEEE;
+
+}
+.orange{
+  color: #6F5036;
+  background-color:#FADEC9;
+}
+.green{
+  color: #7E9484;
+  background-color:#DBEDDB;
+}
+.grey{
+  color: #706F6B;
+  background-color:#E3E2E0;
+}
+.red{
+  color: #8A504D;
+  background-color:#FFE2DD;
+}
+.yellow{
+  color: #826F58;
+  background-color:#FDECC8;
 }
 .background-color-tangible{
   background: rgba(255, 233, 226, 1);
@@ -232,11 +264,9 @@ border-color:#42D9C8;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 35px;
+  border: 2px dashed rgb(255,165,0,.5);
 margin-top: -34px;
-border-width: 2px;
 border-radius: 20px;
-border-style:dashed;
-border-color:ORANGE;
 
 /* width: 50%; */
 }
@@ -248,7 +278,7 @@ margin-top: -34px;
 border-width: 2px;
 border-radius: 20px;
 border-style:dashed;
-border-color:#42D9C8;
+border-color:rgb(66,217,200,.5);
 
 /* width: 50%; */
 }
@@ -290,7 +320,7 @@ text-orientation: mixed; */
   /* margin-bottom: -30px; */
     background-color: white;
     border-width: 2px;
-    border-color:orange;
+    border-color:rgb(255,165,0,.5);
     border-style:solid;
     border-radius: 10px;
     padding:2px 5px 2px 10px;
@@ -300,7 +330,7 @@ text-orientation: mixed; */
   /* margin-bottom: -30px; */
     background-color: white;
     border-width: 2px;
-    border-color:#42D9C8;
+    border-color:rgb(66,217,200,0.5);
     border-style:solid;
     border-radius: 10px;
     padding:2px 5px 2px 10px;
@@ -382,7 +412,7 @@ body::-webkit-scrollbar {
   width: 80%;
   /* max-width: 1300px; */
   font-size: 28px;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-left: 95px;
   padding-right: 95px;
   /* line-height: 44px; */
@@ -449,14 +479,15 @@ li {
   padding: 20px;
 }
 .navigation {
-  font-family: "GT Walsheim Regular";
+  /* font-family: "GT Walsheim Regular"; */
   /* font-family: "Halyard Display Book"; */
   /* font-family: 'Assistant', sans-serif; */
   /* font-family: 'Open Sans', sans-serif; */
-  font-size: 26px;
+  font-size: 24px;
 
   /* font size 30 */
   display: flex;
+  align-items: center;
   position: relative;
 }
 .active{
