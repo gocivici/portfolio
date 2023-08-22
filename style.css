@@ -236,6 +236,7 @@ a:hover {
 
 a:link {
   color: var(--link-color);
+  /* font-weight: bold; */
   background-color: transparent;
   text-decoration: none;
 }
@@ -440,7 +441,7 @@ body::-webkit-scrollbar {
   /* text-align: center; */
 }
 .Project-link{
-  color: #0000EE
+  font-weight: bold;
 }
 .intro-text{
   display: flex;
