@@ -10,7 +10,7 @@
    /* --main-bg-color: #EEE2DE; */
   
 
-  /* --main-bg-color: #e8e5e2;
+  --main-bg-color: #e8e5e2;
   --logo-color:#B31312;
   --link-color:#B31312;
   --visited-link-color:#772233;
@@ -20,9 +20,9 @@
   --art-border-color:rgb(179, 19, 18,0.2);
   --other-border-color:rgb(179, 19, 18,0);
   --text-color:#002d46;
-  --category-text-color:rgb(0, 45, 70,0.5); */
+  --category-text-color:rgb(0, 45, 70,0.5);
 
-  --main-bg-color: #FCFCFC;
+  /* --main-bg-color: #FCFCFC;
   --logo-color:#212121;
   --link-color:#1836AF;
   --visited-link-color:purple;
@@ -32,7 +32,7 @@
   --art-border-color:rgba(136, 136, 136, 0.2);
   --other-border-color:rgba(136, 136, 136, 0.2);
   --text-color:#002d46;
-  --category-text-color:rgb(0, 45, 70,0.5);
+  --category-text-color:rgb(0, 45, 70,0.5); */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
@@ -266,6 +266,9 @@ a:hover {
 }
 
 
+.lastone{
+  max-width: 345px;
+}
 
 .into{
   color: red;
